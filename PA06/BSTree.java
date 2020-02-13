@@ -233,7 +233,17 @@ public class BSTree<T extends Comparable<? super T>> implements Iterable {
 
     //******************ITERATOR STARTS HERE!!!********************************
     public class BSTree_Iterator implements Iterator<T> {
+        public BSTree_Iterator() {
+            
+        }
         
+        public boolean hasNext() {
+            
+        }
+        
+        public T next() {
+            
+        }
     }
 
     public Iterator<T> iterator() {

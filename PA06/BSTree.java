@@ -194,27 +194,6 @@ public class BSTree<T extends Comparable<? super T>> implements Iterable {
     }
 
     /**
-     * Perform a recursive inorder traversal of the BST and add
-     * key values to the keyArray in order.
-     *
-     * @param keyArray BST keys are added to keyArray
-     * @throws NullPointerException If BST is empty
-     */
-    public void inorderTraversal(T[] keyArray) {
-        
-    }
-
-    /**
-     * Helper for the inorderTraversal method
-     *
-     * @param root         Root node
-     * @param keyArrayList BST keys are added to this keyArrayList
-     */
-    private void inOrderTraversalHelper(BSTNode root, ArrayList<T> keyArrayList) {
-        
-    }
-
-    /**
      * Return the height of the tree
      *
      * @return The height of the tree, -1 if BST is empty
@@ -252,67 +231,6 @@ public class BSTree<T extends Comparable<? super T>> implements Iterable {
         
     }
 
-    /**
-     * Replaces a key stored in BST with a new one
-     *
-     * @param oldKey Old key to be replaced
-     * @param newKey New key to be replaced with old key
-     */
-    public void replaceKey(T oldKey, T newKey) {
-        
-    }
-
-    /**
-     * Removes a key from the BST
-     *
-     * @param key To be removed
-     */
-    private void remove(T key) {
-        
-    }
-
-    /**
-     * Helper for the remove method
-     *
-     * @param root Root
-     * @param key  To be removed
-     * @return The removed node
-     */
-    private BSTNode removeHelper(BSTNode root, T key) {
-        
-    }
-
-    /**
-     * Returns the smallest node from a given node
-     *
-     * @param root Smallest node will be found from this node
-     * @return The smallest node from the 'root' node
-     */
-    private BSTNode findMin(BSTNode root) {
-        
-    }
-
-    /**
-     * Finds the parent of any given node
-     *
-     * @param node Node whose parent is going to be returned
-     * @return The parent of 'node'
-     */
-    private BSTNode findParent(BSTNode node) {
-        
-    }
-
-    /**
-     * Helper for the findParent method
-     *
-     * @param currentRoot Current root
-     * @param node        Node whose parent is going to be returned
-     * @return The parent of 'node'
-     */
-    private BSTNode findParentHelper(BSTNode currentRoot, BSTNode node) {
-        
-    }
-
     //******************ITERATOR STARTS HERE!!!********************************
     public class BSTree_Iterator implements Iterator<T> {
         
@@ -324,6 +242,11 @@ public class BSTree<T extends Comparable<? super T>> implements Iterable {
 
     //EXTRA CREDIT
     public ArrayList<T> intersection(Iterator<T> iter1, Iterator<T> iter2) {
+        
+    }
+    
+    //EXTRA CREDIT
+    public int levelCount(int level) {
         
     }
 }

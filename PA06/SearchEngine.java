@@ -32,7 +32,6 @@ public class SearchEngine {
     /*Search a query in a BST
      * @param searchTree - BST to be searched
      * @param fileName - query string
-     * @returns LinkedList of documents in which the query string is found
      */
     public static void searchMyQuery(BSTree<String> searchTree, String query) {
         

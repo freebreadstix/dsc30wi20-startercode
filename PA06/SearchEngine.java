@@ -44,7 +44,13 @@ public class SearchEngine {
      * @param documents Output of documents from query
      */
     public static void print(String query, LinkedList<String> documents) {
-        
+        if(documents==null || documents.isEmpty())
+            System.out.println("The search yielded no results for "+query);
+        else {
+            Object[] converted = documents.toArray();
+            Arrays.sort(converted);
+            System.out.println("Documents related to "+ query +" are: "+Arrays.toString(converted));
+        }
     }
     
     public static void main( String[] args ) {

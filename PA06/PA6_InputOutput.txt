@@ -42,7 +42,7 @@ The search yielded no results for anton-yelchin michael-douglas
 The search yielded no results for anton-yelchin
 The search yielded no results for michael-douglas
 
-Query = “robert-downey-jr tom-holland scarlett-johannson”
+Query = “robert-downey-jr tom-holland scarlett-johansson”
 Query Number = 0
 Output:
 Documents related to robert-downey-jr tom-holland scarlett-johansson are: [avengers]

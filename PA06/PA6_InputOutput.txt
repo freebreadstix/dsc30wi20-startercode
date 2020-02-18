@@ -35,7 +35,7 @@ The search yielded no results for vin-diesel bill-paxton
 Documents related to vin-diesel are: [fast-and-furious, guardians-of-the-galaxy]
 Documents related to bill-paxton are: [weird-science]
 
-Query = “anton-yelchin”
+Query = “anton-yelchin michael-douglas”
 Query Number = 0
 Output:
 The search yielded no results for anton-yelchin michael-douglas
@@ -87,7 +87,7 @@ Query Number = 1
 Output:
 The search yielded no results for FOX COLUMBIA
 Documents related to fox are: [jojo-rabbit, we-bought-a-zoo]
-The search yielded no results for columbia
+Documents related to columbia are: [spider-man-ffh]
 
 Query = "chris-evans scarlett-johansson"
 Query Number = 2

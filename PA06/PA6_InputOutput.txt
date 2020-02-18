@@ -46,7 +46,7 @@ Query = “robert-downey-jr tom-holland scarlett-johansson”
 Query Number = 0
 Output:
 Documents related to robert-downey-jr tom-holland scarlett-johansson are: [avengers]
-Documents related to robert-downey-jr are: [chef, dolittle, iron-man-2, sherlock-holmes, tropic thunder, weird-science]
+Documents related to robert-downey-jr are: [chef, dolittle, iron-man-2, sherlock-holmes, tropic-thunder, weird-science]
 Documents related to tom-holland are: [spider-man-ffh]
 Documents related to scarlett-johansson are: [jojo-rabbit, we-bought-a-zoo]
 
@@ -67,19 +67,19 @@ Documents related to tom-holland are: [dolittle, spider-man-ffh]
 Query = "paramount"
 Query Number = 1
 Output:
-Documents related to paramount are: [iron-man-2, terminator, tropic thunder]
+Documents related to paramount are: [iron-man-2, terminator, tropic-thunder]
 
 Query = "paramount fox"
 Query Number = 1
 Output:
 The search yielded no results for paramount fox
-Documents related to paramount are: [iron-man-2, terminator, tropic thunder]
+Documents related to paramount are: [iron-man-2, terminator, tropic-thunder]
 Documents related to fox are: [jojo-rabbit, we-bought-a-zoo]
 
 Query = "dreamworks paramount"
 Query Number = 1
 Output:
-Documents related to dreamworks paramount are: [tropic thunder]
+Documents related to dreamworks paramount are: [tropic-thunder]
 Documents related to paramount are: [iron-man-2, terminator]
 
 Query = "FOX COLUMBIA"

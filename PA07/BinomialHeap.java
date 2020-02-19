@@ -131,20 +131,18 @@ public class BinomialHeap<T extends Comparable<? super T>>  implements binomialH
      */
     private void insertHelper(Node<T> node) {
         /* TODO */
-        // start at index of incoming node
-
-        // iterate up to the first element in the forest
-
-            // if you find a open spot, place the tree there & break out
-
-            // else, merge two trees
-
-                // set the node with more extreme value as the new root,
-                // and the other node a child of the new root.
-
-                // update index to the index of next spot
-
-        // resize the forest if necessary
+        // hint 1: the 'node' of degree k is going to be placed at forest[k]
+        // hint 2: consider how this helper can be used in the add and remove method
+        // attempt to place 'node' in forest degree of the Node (for the rest, assume degree of 'node' is k)
+            // if forest[k] is empty, place 'node' at forest[k]
+            // if forest[k] contains a Node:
+                // compare 'node' and forest[k] -> one of these becomes the child of the other 
+                // (consider using the addChild method of Node)
+                // 'node' <-- the non-child of the either 'node' and forest[k]
+                // return back to the first step of trying to place 'node' into forest
+                    // note: because I have added a child, the degree of 'node' has increased by 1
+        // if my forest wasn't big enough for the 'node' (consider how I can tell if this is true):
+            // resize the forest & place the 'node' in the appropriate spot. 
     }
 
     /**

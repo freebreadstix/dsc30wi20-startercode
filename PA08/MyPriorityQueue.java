@@ -5,7 +5,7 @@ public class MyPriorityQueue<T extends Comparable<? super T>> {
 
     private BinaryHeap<T> pQueue;
     /**
-     * Constructor that creates a new priority queue
+     * Constructor that creates a new priority queue using binary min-heap
      * @param initialSize the given size
      */
     public MyPriorityQueue(int initialSize) {
@@ -26,10 +26,10 @@ public class MyPriorityQueue<T extends Comparable<? super T>> {
     }
 
     /**
-     * Retrieves the head of this Priority Queue (largest element), or null 
+     * Retrieves the head of this Priority Queue (smallest element), or null 
      * if the queue is empty.
      *
-     * @return The head of the queue (largest element), or null if queue is
+     * @return The head of the queue (smallest element), or null if queue is
      *           empty.
      */
     public T poll() {
